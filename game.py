@@ -21,7 +21,6 @@ try:
         while end !=0:
                     
             number = randint(1, 9)
-            print ("Random number: %d" %(number))
             inputNumber = input ("Guess the number between 1 and 9:\n")
             intNumber = int (inputNumber)
 
@@ -45,8 +44,3 @@ try:
             print ("You are too young to play this game")
 except ValueError:
     print ("Error: You did not enter a number")
-        
-        
-
-
-
